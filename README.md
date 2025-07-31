@@ -1,4 +1,5 @@
 # Wazuh-Home-Lab
+
 A Wazuh SIEM Home Lab project on Ubuntu VM
 
 This project is a home-based SIEM (Security Information and Event Management) setup using Wazuh on Ubuntu in a virtual environment. The goal is to simulate a real-world SOC environment for learning, log analysis, and threat detection.
