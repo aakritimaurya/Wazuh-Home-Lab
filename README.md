@@ -1,19 +1,23 @@
 # Wazuh-Home-Lab
 A Wazuh SIEM Home Lab project on Ubuntu VM
 
-This is a personal SOC (Security Operations Center) lab project built entirely on a home setup using Wazuh SIEM. It includes setting up a Wazuh all-in-one instance (Manager + Dashboard + Agent) on an Ubuntu virtual machine using VMware.
+This project is a home-based SIEM (Security Information and Event Management) setup using Wazuh on Ubuntu in a virtual environment. The goal is to simulate a real-world SOC environment for learning, log analysis, and threat detection.
 
-##Project Highlights
+## Project Objectives
+- Learn how to deploy Wazuh in a local virtual lab.
+- Understand basic SIEM concepts: event collection, policy monitoring, file integrity monitoring, system auditing, etc.
+- Practice agent installation and dashboard usage.
+- Use this setup as a foundation for further SOC/Incident Response learning.
 
-Installed Ubuntu 22.04 on VMware Workstation Player
-Deployed Wazuh SIEM using official all-in-one installation script
-Accessed Wazuh dashboard 
-Verified that all services (Dashboard, API, Manager) were running
-Configured initial system for log monitoring, file integrity, and policy audit
+## Environment Setup
+- Host Machine: Windows with VMware Workstation
+- Guest Machine: Ubuntu 22.04 LTS (VM)
+- SIEM Tool: Wazuh 4.7.5
+- Network: Bridged or NAT (for localhost access)
 
-##Tools Used
-
-Ubuntu 22.04 LTS (Guest OS)
-VMware Workstation Player (Virtualization)
-Wazuh 4.7 (SIEM Platform)
-Firefox (to access localhost)
+## Tools & Commands Used
+- Ubuntu VM
+- curl
+- bash shell
+- Wazuh installation script
+``bash
