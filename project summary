@@ -1,0 +1,46 @@
+## Objective
+To simulate a basic SOC (Security Operations Center) environment by setting up an open-source SIEM platform (Wazuh) on a virtual Ubuntu machine. The project is designed to help understand real-time monitoring, log collection, file integrity checking, and threat detection mechanisms — aligned with SOC analyst skillsets.
+
+## Tools and Technologies Used
+
+Ubuntu 22.04 LTS (Virtual Machine)
+VMware Workstation Player
+Wazuh 4.7 All-in-One (Manager, Dashboard, Agent)
+Firefox Browser (for dashboard access)
+curl, bash shell (for installation)
+
+## Installation & Configuration Steps
+
+1. Installed Ubuntu VM using official ISO image
+2. Updated system and installed curl
+3. Downloaded and executed Wazuh installation script:
+
+#curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
+#sudo bash ./wazuh-install.sh -a
+
+4. Accessed Wazuh dashboard via #https://localhost
+
+5.  Verified modules like:
+- File Integrity Monitoring
+- Security Events
+- Policy Monitoring
+- System Auditing
+
+## Achievements
+Successfully deployed a functional SIEM environment locally
+Understood core Wazuh features and SOC concepts
+Documented complete setup with screenshots and logs
+Added project to GitHub portfolio and resume for job readiness
+
+## Learning Outcomes
+How SIEMs collect and visualize security data
+How to troubleshoot Linux-based installations
+Understanding of log sources, dashboards, and security alerts
+Confidence in handling virtual labs and documenting cybersecurity setups
+
+## Future Enhancements
+Add another VM as an agent node
+Simulate attacks to trigger detection rules
+Generate alerts for port scanning, malware, or privilege escalation
+Integrate with VirusTotal or Elastic Stack
+Use log data for advanced analysis or machine learning in security
